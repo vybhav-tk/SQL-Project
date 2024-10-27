@@ -71,7 +71,7 @@ This table served as the foundation for building all further reports and answeri
 
 We generated several reports to answer real estate-related questions about the Polish property market. Some of the key questions addressed include:
 
-1. Average Rent for Different Room Types Across Major Cities:
+1. **Average Rent for Different Room Types Across Major Cities**:
    - We wanted to find the average rental price for 1-room, 2-room, 3-room, and 4-room apartments in major cities like Warsaw, Krakow, Gdansk, and others.
    - We used SQL to:
      * Filter data for the major cities.
@@ -81,19 +81,19 @@ We generated several reports to answer real estate-related questions about the P
    - We used Snowflake's pivot function to transform the result set into a more readable format with room types as separate columns.
    - Finally, we visualized the data using Snowflake’s built-in charting tool, creating a bar chart to display the average rent by city and room type.
 
-2. Affordability Analysis:
+2. **Affordability Analysis**:
    - We analyzed which suburbs in Warsaw had properties within a specific price range (e.g., 800,000 PLN to 1,000,000 PLN) and a specific apartment size (e.g., 90 to 100 m²).
    - This query helped identify affordable areas based on predefined criteria.
    
-3. Size of Apartments for Given Rent in Major Cities:
+3. **Size of Apartments for Given Rent in Major Cities**:
    - For renters with a budget of 3,000 PLN to 4,000 PLN, we examined what size of an apartment they could expect in various major cities.
    -  This analysis highlighted the differences in rent-to-size ratios across different Polish cities, revealing that Warsaw was the most expensive city in terms of rental cost per square meter.
    
-4. Identifying the Most Expensive Apartments:
+4. **Identifying the Most Expensive Apartments**:
    - We queried the data to find the most expensive apartment listings in Poland, showing that Warsaw and Krakow had some of the priciest listings in the country.
    - The listings were sorted by price, and we even cross-referenced the URLs of these listings to check if they were still active.
    
-5. Agency vs. Private Listings:
+5. **Agency vs. Private Listings**:
    - We also examined the percentage of property ads listed by real estate agencies versus private owners. This analysis revealed that around 91% of ads were from agencies, meaning that most rental transactions involve paying agency fees.
 
 
