@@ -62,7 +62,6 @@ The goal of the Project is to provide a detailed analysis of the Polish real est
    The fully transformed data was loaded into a new table called otodom_data_transformed. This table contained:
    - Cleaned price and surface fields.
    - Full addresses (suburb, city, country).
-   - Translated English titles.
    - Apartment flag.
 
 This table served as the foundation for building all further reports and answering key property market questions.
