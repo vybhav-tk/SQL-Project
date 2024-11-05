@@ -99,5 +99,27 @@ We generated several reports to answer real estate-related questions about the P
 ## Final Output:
 The final part of the project involved answering 11 key real estate questions using SQL queries, which were stored and shared via Snowflake. The outputs were used to generate insights about the Polish property market, such as average rents, size of apartments available, most expensive listings, and more.
 
+1. What is the average rental price of 1 room, 2 room, 3 room and 4 room apartments in some of the major cities in Poland?
+
+   ![image](https://github.com/user-attachments/assets/40a6c17c-d2a1-4d7c-b695-ca3bf9e36f45)
+
+
+2.  What is the average rental price for apartments in warsaw in different suburbs? (Based on surface area 0-50, 50-100 and over 100.)
+   
+   ![image](https://github.com/user-attachments/assets/17b078de-50c1-4af4-9f78-732f06d35022)
+
+4. Which are the top 3 most luxurious neighborhoods in Warsaw? Luxurious neighborhoods can be defined as suburbs which has the most no of of apartments costing over 2M in cost.
+
+   ![image](https://github.com/user-attachments/assets/ea01358e-da1b-4556-8f50-daa6594616ef)
+
+
+   
+   
+
+   
+
+
 This overview brings together all the key steps and insights from the otodom Data Analysis Project. By following these steps, anyone can replicate this project, adapt it to other regions or property markets, and gain deep insights using the power of modern data analysis tools.
+
+
 
